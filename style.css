@@ -55,9 +55,27 @@ nav a:hover { color: var(--flame); }
 .cta { display: inline-block; margin-top: 8px; padding: 12px 22px; background: var(--charcoal); color: var(--paper); text-decoration: none; font-family: 'Oswald', sans-serif; font-weight: 500; letter-spacing: 0.3px; }
 .cta:hover { background: var(--flame); color: var(--paper); }
 .text-link { font-weight: 600; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+
+.article { border-bottom: 1px solid var(--line); }
+.article-wrap { max-width: 820px; padding-top: 12px; padding-bottom: 32px; }
+.article section { padding: 34px 0; border-bottom: 1px solid var(--line); }
+.article section:last-child { border-bottom: none; }
+.article h2 { margin-bottom: 12px; }
+.article p, .article li { max-width: 70ch; }
+.steps { padding-left: 24px; }
+.steps li + li { margin-top: 12px; }
+.related-links { display: grid; gap: 10px; }
+.related-links h2 { margin-bottom: 4px; }
+.related-links a { font-weight: 600; }
+.table-wrap { width: 100%; overflow-x: auto; margin: 20px 0 12px; }
+.reference-table { width: 100%; border-collapse: collapse; min-width: 620px; background: rgba(255,255,255,0.2); }
+.reference-table th, .reference-table td { text-align: left; padding: 12px 14px; border: 1px solid var(--line); vertical-align: top; }
+.reference-table th { font-family: 'Oswald', sans-serif; font-weight: 600; background: rgba(255,255,255,0.34); }
+.small-note { color: var(--steel); font-size: 0.92rem; }
+
 footer { padding: 32px 0 48px; color: var(--ash); font-size: 0.9rem; }
 footer a { color: var(--ash); }
 footer nav { margin-top: 10px; gap: 8px 18px; }
 footer nav a { font-size: 0.85rem; }
 .disclosure-note { background: #E4DDC9; border-left: 3px solid var(--flame); padding: 14px 18px; font-size: 0.92rem; color: var(--steel); margin: 24px 0; }
-@media (max-width: 800px) { .grid-3, .recipe-grid, .category-grid { grid-template-columns: 1fr; } h1 { font-size: 2rem; } .site-header .wrap { align-items: flex-start; } }
+@media (max-width: 800px) { .grid-3, .recipe-grid, .category-grid { grid-template-columns: 1fr; } h1 { font-size: 2rem; } .site-header .wrap { align-items: flex-start; } .article-wrap { padding-top: 0; } }
