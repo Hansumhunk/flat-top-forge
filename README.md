@@ -16,11 +16,19 @@ Flat Top Forge is a static reference site for flat-top griddle owners. It is bei
   - `recipes/seafood.html`
   - `recipes/vegetables.html`
   - `recipes/desserts.html`
-- `guides.html` — seasoning, cleaning, heat control, and technique
+- `guides.html` — guide hub
+  - `guides/how-to-season-a-griddle.html`
+  - `guides/how-to-clean-a-griddle.html`
+  - `guides/griddle-heat-zones.html`
+  - `guides/griddle-cooking-temperatures.html`
 - `gear.html` — tools and accessory guides
 - `comparisons.html` — griddle and accessory comparisons
 - `compatibility.html` — model/accessory fit checks
-- `troubleshooting.html` — common griddle problems
+- `troubleshooting.html` — troubleshooting hub
+  - `troubleshooting/sticky-griddle-surface.html`
+  - `troubleshooting/rust-on-griddle.html`
+  - `troubleshooting/griddle-not-getting-hot.html`
+  - `troubleshooting/food-sticking-to-griddle.html`
 - `tools.html` — charts, calculators, and quick-reference utilities
 - `about.html` — site purpose and research approach
 - `editorial-policy.html` — research/testing standards
@@ -45,12 +53,13 @@ The site is organized around four kinds of value:
 - Label inference separately from documented facts.
 - Keep affiliate relationships separate from editorial conclusions.
 - Build individual pages around specific questions rather than generic filler.
+- Link related pages into topic clusters so each page helps users continue naturally through the site.
 
 ## Next build stages
 
 - Split high-value recipes into individual recipe URLs.
-- Add dedicated guide articles under `/guides/`.
-- Add dedicated troubleshooting articles under `/troubleshooting/`.
 - Build the first interactive tool/calculator.
 - Add real comparison and compatibility pages with source citations.
+- Expand Gear into specific accessory buying guides.
+- Add more troubleshooting articles based on recurring owner problems.
 - Add a public contact method once an address or form is ready.
