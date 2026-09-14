@@ -20,15 +20,16 @@ p { max-width: 68ch; }
 a { color: var(--flame); }
 a:hover { text-decoration: none; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--flame); outline-offset: 2px; }
-.wrap { max-width: 920px; margin: 0 auto; padding: 0 24px; }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
 header.site-header { border-bottom: 1px solid var(--line); padding: 20px 0; }
-.site-header .wrap { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 12px; }
-.brand { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 1.25rem; color: var(--charcoal); text-decoration: none; }
+.site-header .wrap { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 14px 24px; }
+.brand { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 1.25rem; color: var(--charcoal); text-decoration: none; white-space: nowrap; }
 .brand span { color: var(--flame); }
-nav a { color: var(--steel); text-decoration: none; margin-left: 22px; font-size: 0.95rem; }
+nav { display: flex; flex-wrap: wrap; gap: 8px 18px; }
+nav a { color: var(--steel); text-decoration: none; font-size: 0.95rem; }
 nav a:hover { color: var(--flame); }
 .hero { padding: 64px 0 48px; border-bottom: 1px solid var(--line); }
-.hero p.lede { font-size: 1.15rem; color: var(--steel); max-width: 56ch; }
+.hero p.lede { font-size: 1.15rem; color: var(--steel); max-width: 62ch; }
 .section { padding: 48px 0; border-bottom: 1px solid var(--line); }
 .section:last-of-type { border-bottom: none; }
 .rule-label { font-size: 0.85rem; color: var(--ash); border-bottom: 1px solid var(--line); padding-bottom: 8px; margin-bottom: 24px; }
@@ -53,9 +54,10 @@ nav a:hover { color: var(--flame); }
 .item p { color: var(--steel); font-size: 0.98rem; }
 .cta { display: inline-block; margin-top: 8px; padding: 12px 22px; background: var(--charcoal); color: var(--paper); text-decoration: none; font-family: 'Oswald', sans-serif; font-weight: 500; letter-spacing: 0.3px; }
 .cta:hover { background: var(--flame); color: var(--paper); }
+.text-link { font-weight: 600; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 footer { padding: 32px 0 48px; color: var(--ash); font-size: 0.9rem; }
 footer a { color: var(--ash); }
-footer nav { margin-top: 8px; }
-footer nav a { margin-left: 0; margin-right: 18px; font-size: 0.85rem; }
+footer nav { margin-top: 10px; gap: 8px 18px; }
+footer nav a { font-size: 0.85rem; }
 .disclosure-note { background: #E4DDC9; border-left: 3px solid var(--flame); padding: 14px 18px; font-size: 0.92rem; color: var(--steel); margin: 24px 0; }
-@media (max-width: 700px) { .grid-3, .recipe-grid, .category-grid { grid-template-columns: 1fr; } h1 { font-size: 2rem; } nav a { margin-left: 14px; } }
+@media (max-width: 800px) { .grid-3, .recipe-grid, .category-grid { grid-template-columns: 1fr; } h1 { font-size: 2rem; } .site-header .wrap { align-items: flex-start; } }
