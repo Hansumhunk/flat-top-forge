@@ -12,11 +12,22 @@ Flat Top Forge is a static reference site for flat-top griddle owners. It is bei
   - `recipes/chicken/honey-garlic-chicken.html`
   - `recipes/steak/garlic-butter-steak-bites.html`
   - `recipes/hibachi/griddle-fried-rice.html`
-- `guides.html` — guide hub
-  - `guides/how-to-season-a-griddle.html`
-  - `guides/how-to-clean-a-griddle.html`
-  - `guides/griddle-heat-zones.html`
-  - `guides/griddle-cooking-temperatures.html`
+- `guides.html` — guide hub with two major paths
+  - Core how-tos
+    - `guides/how-to-season-a-griddle.html`
+    - `guides/how-to-clean-a-griddle.html`
+    - `guides/griddle-heat-zones.html`
+    - `guides/griddle-cooking-temperatures.html`
+  - Tips, tricks & food techniques
+    - `guides/tips-and-tricks.html`
+    - `guides/tips/crispy-smash-burger-edges.html`
+    - `guides/tips/cheese-skirt.html`
+    - `guides/tips/steam-melt-cheese.html`
+    - `guides/tips/crispy-hash-browns.html`
+    - `guides/tips/steak-sear-and-butter-zones.html`
+    - `guides/tips/restaurant-style-fried-rice.html`
+    - `guides/tips/crispy-griddle-vegetables.html`
+    - `guides/tips/full-hibachi-meal-timing.html`
 - `gear.html` — gear progression hub
   - `gear/essential-griddle-tools.html` — Level 1 basic essentials
   - `gear/upgraded-griddle-cooking-gear.html` — Level 2 upgraded workstation
@@ -63,6 +74,8 @@ The site is organized around four kinds of value:
 - Use dedicated recipe URLs for higher-value recipes and include structured recipe data where appropriate.
 - Organize gear recommendations by function and progression: basic essentials, workflow upgrades, specialty tools, then station organization.
 - Recommend quantities when quantity materially changes workflow, such as spatulas, squeeze bottles, domes, presses, and prep trays.
+- Keep Guides consolidated under one main Guides destination, with core how-tos and a Tips & Tricks path rather than creating unnecessary top-level navigation sections.
+- Treat Tips & Tricks pages as repeatable food techniques that improve multiple recipes, not as duplicate recipe pages.
 
 ## Phase 3 implemented
 
@@ -84,6 +97,13 @@ The site is organized around four kinds of value:
 - Added dedicated squeeze-bottle and burger-press comparison pages.
 - Clarified that long cooking forks are optional specialty tools rather than basic essentials.
 
+## Phase 5 implemented
+
+- Reorganized Guides into two clear paths: Core How-Tos and Tips, Tricks & Food Techniques.
+- Added a dedicated Tips & Tricks sub-hub inside Guides rather than another top-level site section.
+- Added technique guides for crispy smash-burger edges, cheese skirts, steam-melted cheese, crispy hash browns, steak sear/butter zones, restaurant-style fried rice, charred vegetables, and full hibachi meal timing.
+- Cross-linked technique pages to relevant recipes, gear, heat-zone guides, and troubleshooting content.
+
 ## Next build stages
 
 - Convert more category recipes into standalone recipe pages.
@@ -91,5 +111,6 @@ The site is organized around four kinds of value:
 - Add current, source-cited model and product comparison pages.
 - Add model-specific compatibility checks using manufacturer documentation.
 - Build product-specific gear pages once affiliate relationships or tracked retailers are established.
+- Expand Tips & Tricks into buns, bacon, quesadillas, pancakes, fajitas, griddle fruit, and other repeatable food techniques.
 - Add more troubleshooting articles based on recurring owner problems.
 - Add a public contact method once an address or form is ready.
