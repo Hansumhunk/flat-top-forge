@@ -17,8 +17,13 @@ Flat Top Forge is a static reference site for flat-top griddle owners. It is bei
   - `guides/how-to-clean-a-griddle.html`
   - `guides/griddle-heat-zones.html`
   - `guides/griddle-cooking-temperatures.html`
-- `gear.html` — tools and accessory guides
-  - `gear/essential-griddle-tools.html`
+- `gear.html` — gear progression hub
+  - `gear/essential-griddle-tools.html` — Level 1 basic essentials
+  - `gear/upgraded-griddle-cooking-gear.html` — Level 2 upgraded workstation
+  - `gear/specialty-griddle-tools.html` — Level 3 specialty tools
+  - `gear/griddle-prep-station.html` — Level 4 prep and organization
+  - `gear/griddle-squeeze-bottle-setup.html`
+  - `gear/burger-press-vs-bacon-press.html`
   - `gear/infrared-vs-instant-read-thermometer.html`
 - `comparisons.html` — griddle and accessory comparisons
   - `comparisons/28-vs-36-inch-griddle.html`
@@ -56,6 +61,8 @@ The site is organized around four kinds of value:
 - Build individual pages around specific questions rather than generic filler.
 - Link related pages into topic clusters so each page helps users continue naturally through the site.
 - Use dedicated recipe URLs for higher-value recipes and include structured recipe data where appropriate.
+- Organize gear recommendations by function and progression: basic essentials, workflow upgrades, specialty tools, then station organization.
+- Recommend quantities when quantity materially changes workflow, such as spatulas, squeeze bottles, domes, presses, and prep trays.
 
 ## Phase 3 implemented
 
@@ -65,6 +72,17 @@ The site is organized around four kinds of value:
 - First dedicated size comparison.
 - First reusable accessory compatibility method.
 - Cross-links between recipes, guides, tools, gear, comparisons, and compatibility pages.
+
+## Phase 4 implemented
+
+- Expanded the essential griddle tools guide with specific starter quantities and jobs.
+- Added separate standard and long spatula recommendations.
+- Added a burger/bacon press to the basic kit.
+- Defined a three-bottle starter station and a five-bottle upgraded station.
+- Added an upgraded cooking gear guide built around redundancy and workflow.
+- Added specialty-tool and prep-station guides.
+- Added dedicated squeeze-bottle and burger-press comparison pages.
+- Clarified that long cooking forks are optional specialty tools rather than basic essentials.
 
 ## Next build stages
 
