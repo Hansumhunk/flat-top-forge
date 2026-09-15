@@ -3,26 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Griddle Size Calculator — Flat Top Forge</title>
-<meta name="description" content="Estimate what flat-top griddle size range fits your household, meal style, batch tolerance, and portability needs.">
+<title>Griddle Size & Heat-Zone Calculator — Flat Top Forge</title>
+<meta name="description" content="Estimate what flat-top griddle size and independent heat-zone range fits your household, meal style, batch tolerance, and portability needs.">
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <header class="site-header"><div class="wrap"><a href="../index.html" class="brand">Flat Top <span>Forge</span></a><nav><a href="../index.html">Home</a><a href="../recipes.html">Recipes</a><a href="../guides.html">Guides</a><a href="../gear.html">Gear</a><a href="../comparisons.html">Comparisons</a><a href="../troubleshooting.html">Troubleshooting</a><a href="../tools.html">Tools</a></nav></div></header>
-<section class="hero"><div class="wrap"><div class="breadcrumb"><a href="../tools.html">Tools</a> / Griddle Size Calculator</div><h1>Griddle size calculator</h1><p class="lede">Answer four questions and get a practical size range based on how many people you cook for, what you cook, and how much you despise cooking in batches.</p></div></section>
+<section class="hero"><div class="wrap"><div class="breadcrumb"><a href="../tools.html">Tools</a> / Griddle Size &amp; Zone Calculator</div><h1>Griddle size &amp; heat-zone calculator</h1><p class="lede">Answer five questions and get a practical starting range for both cooking-surface size and independently controlled heat zones. Because “36 inches” is less helpful when nobody mentions how many knobs are actually running the thing.</p></div></section>
 <main class="article"><div class="wrap article-wrap">
 <section><div class="rule-label">Interactive tool</div><form id="size-calculator" class="calculator-card">
 <label for="people">How many people do you usually cook for?</label><input id="people" type="number" min="1" max="30" value="4" required>
 <label for="meal">What kind of meals do you cook most?</label><select id="meal"><option value="simple">Simple meals: burgers, sandwiches, one main item</option><option value="mixed" selected>Mixed meals: protein + vegetables + side</option><option value="breakfast">Full breakfasts / hibachi-style meals with several components</option></select>
 <label for="batches">How do you feel about cooking in batches?</label><select id="batches"><option value="fine">Totally fine with batches</option><option value="some" selected>One extra batch is fine</option><option value="avoid">I want almost everything cooking at once</option></select>
+<label for="zones">How many different temperature jobs do you usually need at once?</label><select id="zones"><option value="one">Mostly one: same temperature across the cook</option><option value="two" selected>Two: hot side + cooler side</option><option value="three">Three: sear + cook + hold</option><option value="four">Four: several proteins/sides at different temperatures</option></select>
 <label for="portable">How important is portability?</label><select id="portable"><option value="high">Very important</option><option value="medium" selected>Somewhat important</option><option value="low">Mostly staying at home</option></select>
-<button type="submit" class="cta calculator-button">Calculate my size range</button></form>
+<button type="submit" class="cta calculator-button">Calculate my size &amp; zone range</button></form>
 <div id="calculator-result" class="calculator-result" aria-live="polite"><h2>Your result will appear here</h2><p>Change the inputs above and run the calculator.</p></div></section>
-<section><h2>How the calculator thinks</h2><p>This is a planning heuristic, not a manufacturer specification. It gives extra space for larger groups, multi-component meals, and cooks who want fewer batches. Portability pulls the recommendation toward smaller footprints when the other answers allow it.</p></section>
-<section><h2>What the ranges mean</h2><div class="table-wrap"><table class="reference-table"><thead><tr><th>Range</th><th>Usually fits</th><th>Tradeoff</th></tr></thead><tbody><tr><td>17–22 inch class</td><td>1–3 people, camping, tailgating, simple meals</td><td>Easy to move, less room for multi-zone cooking</td></tr><tr><td>28 inch class</td><td>2–5 people, ordinary family meals, moderate batching</td><td>Good middle ground between space and footprint</td></tr><tr><td>30–32 inch class</td><td>4–7 people, mixed meals, more simultaneous cooking</td><td>More work space with less portability</td></tr><tr><td>36 inch and larger</td><td>5+ people, entertaining, full breakfasts, hibachi-style cooks</td><td>Maximum room, largest storage and fuel footprint</td></tr></tbody></table></div><p class="small-note">Nominal width does not equal exact cooking area. Compare actual cooktop dimensions and specifications before buying.</p></section>
-<section class="related-links"><h2>Related pages</h2><a href="../comparisons/28-vs-36-inch-griddle.html">28-inch vs 36-inch griddles</a><a href="../compatibility/how-to-check-griddle-accessory-fit.html">How to check accessory compatibility</a><a href="../gear/essential-griddle-tools.html">Essential griddle tools</a></section>
+<section><h2>How the calculator thinks</h2><p>This is a planning heuristic, not a manufacturer specification. It gives extra space for larger groups, multi-component meals, and cooks who want fewer batches. It separately recommends a minimum range of independent heat controls based on how many temperature jobs you want to run at once. Portability pulls the size recommendation smaller when the other answers allow it.</p></section>
+<section><h2>What the size ranges mean</h2><div class="table-wrap"><table class="reference-table"><thead><tr><th>Range</th><th>Usually fits</th><th>Tradeoff</th></tr></thead><tbody><tr><td>17–22 inch class</td><td>1–3 people, camping, tailgating, simple meals</td><td>Easy to move, less room for multi-zone cooking</td></tr><tr><td>28 inch class</td><td>2–5 people, ordinary family meals, moderate batching</td><td>Good middle ground between space and footprint</td></tr><tr><td>30–32 inch class</td><td>4–7 people, mixed meals, more simultaneous cooking</td><td>More workspace with less portability</td></tr><tr><td>36 inch and larger</td><td>5+ people, entertaining, full breakfasts, hibachi-style cooks</td><td>Maximum room, largest storage and fuel footprint</td></tr></tbody></table></div></section>
+<section><h2>What the heat-zone ranges mean</h2><div class="table-wrap"><table class="reference-table"><thead><tr><th>Controls</th><th>Useful pattern</th><th>Typical fit</th></tr></thead><tbody><tr><td>1 independent zone</td><td>One general surface temperature</td><td>Simple meals and compact electric griddles</td></tr><tr><td>2 independent zones</td><td>Hot + medium/cool</td><td>Most ordinary family meals</td></tr><tr><td>3 independent zones</td><td>Sear + cook + finish/hold</td><td>Full breakfasts, fajitas, rice, protein + multiple sides</td></tr><tr><td>4 independent zones</td><td>Several active temperatures plus holding space</td><td>Large breakfasts, hibachi, parties, high-volume multi-item cooking</td></tr></tbody></table></div><p class="small-note">Burner count or element count does not guarantee perfectly isolated surface temperatures. Plate material, burner geometry, wind, preheat, and food load all affect real heat distribution.</p></section>
+<section><div class="disclosure-note"><strong>Use both results together.</strong> A large griddle with too few independent controls may not fit your workflow, while a smaller griddle with plenty of controls can still run out of physical space. Compare size and zone count as separate requirements.</div></section>
+<section class="related-links"><h2>Related pages</h2><a href="../comparisons/griddle-buying-guide.html">Complete griddle buying guide</a><a href="../comparisons/28-vs-36-inch-griddle.html">28-inch vs 36-inch griddles</a><a href="../guides/griddle-heat-zones.html">How heat zones work</a><a href="../comparisons/gas-vs-electric-griddles.html">Gas vs electric griddles</a><a href="../compatibility/how-to-check-griddle-accessory-fit.html">How to check accessory compatibility</a></section>
 </div></main>
-<footer><div class="wrap"><p>Flat Top Forge is an independent site. Tool results are general planning guidance, not manufacturer fit or safety specifications.</p><nav><a href="../about.html">About</a><a href="../editorial-policy.html">Editorial Policy</a><a href="../privacy.html">Privacy</a><a href="../terms.html">Terms</a><a href="../disclosure.html">Affiliate Disclosure</a></nav></div></footer>
+<footer><div class="wrap"><p>Flat Top Forge is an independent site. Tool results are general planning guidance, not manufacturer fit, performance, or safety specifications.</p><nav><a href="../about.html">About</a><a href="../editorial-policy.html">Editorial Policy</a><a href="../privacy.html">Privacy</a><a href="../terms.html">Terms</a><a href="../disclosure.html">Affiliate Disclosure</a></nav></div></footer>
 <script>
 (function(){
   const form=document.getElementById('size-calculator');
@@ -32,20 +35,28 @@
     const people=Math.max(1,Math.min(30,Number(document.getElementById('people').value)||1));
     const meal=document.getElementById('meal').value;
     const batches=document.getElementById('batches').value;
+    const zones=document.getElementById('zones').value;
     const portable=document.getElementById('portable').value;
     let score=people;
     if(meal==='mixed') score+=1.5;
     if(meal==='breakfast') score+=3;
     if(batches==='some') score+=1;
     if(batches==='avoid') score+=3;
+    if(zones==='three') score+=1;
+    if(zones==='four') score+=2;
     if(portable==='high') score-=1.5;
     if(portable==='low') score+=0.5;
     let range,why;
     if(score<=3.5){range='17–22 inch class';why='A compact surface should cover your normal load while keeping portability high.';}
     else if(score<=6.5){range='28 inch class';why='You need enough room for family-size cooks without jumping immediately to the largest footprint.';}
-    else if(score<=9){range='30–32 inch class';why='Your meal complexity or group size benefits from extra working room and multiple heat zones.';}
-    else{range='36 inch or larger';why='Your group size, meal complexity, or low tolerance for batching points toward a large cooking surface.';}
-    result.innerHTML='<div class="recipe-meta">Suggested starting range</div><h2>'+range+'</h2><p>'+why+'</p><p class="small-note">Use this as a shortlist filter, then compare exact cooking area, burner layout, dimensions, storage, and manufacturer specifications.</p>';
+    else if(score<=9.5){range='30–32 inch class';why='Your meal complexity, group size, or zone needs benefit from extra working room.';}
+    else{range='36 inch or larger';why='Your group size, meal complexity, zone needs, or low tolerance for batching points toward a large cooking surface.';}
+    let zoneRange,zoneWhy;
+    if(zones==='one'){zoneRange='1–2 independently controlled zones';zoneWhy='Your usual meals do not require many simultaneous temperatures, so simple heat control should be enough.';}
+    else if(zones==='two'){zoneRange='At least 2 independently controlled zones';zoneWhy='A hot side and a cooler side should match your usual workflow.';}
+    else if(zones==='three'){zoneRange='Prefer 3 independently controlled zones';zoneWhy='You want separate sear, normal-cooking, and finishing or holding areas.';}
+    else{zoneRange='Prefer 4 independently controlled zones';zoneWhy='You regularly want several foods cooking at different temperatures at the same time.';}
+    result.innerHTML='<div class="recipe-meta">Suggested starting point</div><h2>'+range+'</h2><p>'+why+'</p><h3>'+zoneRange+'</h3><p>'+zoneWhy+'</p><p class="small-note">Use this as a shortlist filter, then compare exact cooking area, burner or element layout, dimensions, surface construction, storage, and current manufacturer specifications.</p>';
   });
 })();
 </script>
