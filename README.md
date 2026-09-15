@@ -38,6 +38,7 @@ Flat Top Forge is a static reference site for flat-top griddle owners. It is bei
   - `gear/infrared-vs-instant-read-thermometer.html`
 - `comparisons.html` — griddle and accessory comparison hub
   - `comparisons/28-vs-36-inch-griddle.html`
+  - `comparisons/gas-vs-electric-griddles.html` — gas/electric comparison with current electric examples
   - `comparisons/brands-and-models.html` — major current brand/model-family directory
 - `compatibility.html` — model/accessory fit checks
   - `compatibility/how-to-check-griddle-accessory-fit.html`
@@ -80,6 +81,8 @@ The site is organized around four kinds of value:
 - Keep brand/model comparison pages grouped by real use case and size class instead of comparing unrelated cookers simply because they share a brand category.
 - Recheck manufacturer specifications, current-model status, warranty, and availability before publishing model-specific head-to-head conclusions.
 - Label manufacturer-run testing as manufacturer claims rather than independent Flat Top Forge testing.
+- Separate countertop electric griddles from larger multi-zone electric flat tops so the Gas vs Electric comparison does not pretend every electric cooker serves the same use case.
+- When electric models use ceramic-coated or nonstick surfaces, follow manufacturer utensil and cleaning restrictions instead of applying seasoned-steel tool assumptions.
 
 ## Phase 3 implemented
 
@@ -116,10 +119,22 @@ The site is organized around four kinds of value:
 - Defined a standard future model-data set: cooking area, burners/zones, cooktop material, fuel, dimensions, weight, hood/storage, warranty, price class, and accessory ecosystem.
 - Kept discontinued/legacy models separate from current lineups to avoid confusing used-market research with current-product comparisons.
 
+## Phase 7 implemented
+
+- Turned Gas vs Electric from a roadmap placeholder into a full comparison article.
+- Added current electric examples from Blackstone, GreenPan, Presto, and Zojirushi.
+- Split electric griddles into two useful classes: full-featured electric flat tops and indoor/countertop electric griddles.
+- Added a gas-vs-electric comparison table covering heat source, controls, size, indoor use, portability, surface construction, heat zones, cleanup, and power logistics.
+- Added buying guidance for gas and electric use cases.
+- Added electrical-circuit and gas-placement safety checks.
+- Added a section explaining how coated electric surfaces can change spatula, scraper, and cleaning-tool requirements.
+- Added manufacturer-source links and a September 2026 research snapshot note.
+
 ## Next build stages
 
 - Build manufacturer-specific brand pages and source-cited model tables.
 - Publish the first full-size mainstream head-to-head comparison using current manufacturer documentation.
+- Add same-brand Blackstone gas-vs-E-Series comparisons at similar sizes.
 - Convert more category recipes into standalone recipe pages.
 - Add a serving calculator and oil smoke-point reference.
 - Add model-specific compatibility checks using manufacturer documentation.
