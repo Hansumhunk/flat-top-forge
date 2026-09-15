@@ -36,8 +36,9 @@ Flat Top Forge is a static reference site for flat-top griddle owners. It is bei
   - `gear/griddle-squeeze-bottle-setup.html`
   - `gear/burger-press-vs-bacon-press.html`
   - `gear/infrared-vs-instant-read-thermometer.html`
-- `comparisons.html` — griddle and accessory comparisons
+- `comparisons.html` — griddle and accessory comparison hub
   - `comparisons/28-vs-36-inch-griddle.html`
+  - `comparisons/brands-and-models.html` — major current brand/model-family directory
 - `compatibility.html` — model/accessory fit checks
   - `compatibility/how-to-check-griddle-accessory-fit.html`
 - `troubleshooting.html` — troubleshooting hub
@@ -76,6 +77,9 @@ The site is organized around four kinds of value:
 - Recommend quantities when quantity materially changes workflow, such as spatulas, squeeze bottles, domes, presses, and prep trays.
 - Keep Guides consolidated under one main Guides destination, with core how-tos and a Tips & Tricks path rather than creating unnecessary top-level navigation sections.
 - Treat Tips & Tricks pages as repeatable food techniques that improve multiple recipes, not as duplicate recipe pages.
+- Keep brand/model comparison pages grouped by real use case and size class instead of comparing unrelated cookers simply because they share a brand category.
+- Recheck manufacturer specifications, current-model status, warranty, and availability before publishing model-specific head-to-head conclusions.
+- Label manufacturer-run testing as manufacturer claims rather than independent Flat Top Forge testing.
 
 ## Phase 3 implemented
 
@@ -104,11 +108,20 @@ The site is organized around four kinds of value:
 - Added technique guides for crispy smash-burger edges, cheese skirts, steam-melted cheese, crispy hash browns, steak sear/butter zones, restaurant-style fried rice, charred vegetables, and full hibachi meal timing.
 - Cross-linked technique pages to relevant recipes, gear, heat-zone guides, and troubleshooting content.
 
+## Phase 6 implemented
+
+- Added a dedicated Brands & Models directory inside Comparisons.
+- Added Blackstone, Weber, Traeger, Camp Chef, Pit Boss, HALO, Nexgrill, Royal Gourmet, Cuisinart, recteq, and Grilla Grills as initial manufacturers to track.
+- Organized model families into full-size mainstream, mid-size, portable, premium, alternative-fuel, hybrid, and legacy comparison classes.
+- Defined a standard future model-data set: cooking area, burners/zones, cooktop material, fuel, dimensions, weight, hood/storage, warranty, price class, and accessory ecosystem.
+- Kept discontinued/legacy models separate from current lineups to avoid confusing used-market research with current-product comparisons.
+
 ## Next build stages
 
+- Build manufacturer-specific brand pages and source-cited model tables.
+- Publish the first full-size mainstream head-to-head comparison using current manufacturer documentation.
 - Convert more category recipes into standalone recipe pages.
 - Add a serving calculator and oil smoke-point reference.
-- Add current, source-cited model and product comparison pages.
 - Add model-specific compatibility checks using manufacturer documentation.
 - Build product-specific gear pages once affiliate relationships or tracked retailers are established.
 - Expand Tips & Tricks into buns, bacon, quesadillas, pancakes, fajitas, griddle fruit, and other repeatable food techniques.
