@@ -1,6 +1,6 @@
 # Flat Top Forge
 
-Flat Top Forge is a static reference site for flat-top griddle owners. It is being built around practical search intent: recipes, techniques, gear, compatibility, comparisons, troubleshooting, and reusable tools.
+Flat Top Forge is a static reference site for flat-top griddle owners. It is being built around practical search intent: recipes, techniques, gear, compatibility, comparisons, troubleshooting, buying guidance, and reusable tools.
 
 ## Current site architecture
 
@@ -36,7 +36,8 @@ Flat Top Forge is a static reference site for flat-top griddle owners. It is bei
   - `gear/griddle-squeeze-bottle-setup.html`
   - `gear/burger-press-vs-bacon-press.html`
   - `gear/infrared-vs-instant-read-thermometer.html`
-- `comparisons.html` — griddle and accessory comparison hub
+- `comparisons.html` — buying-guide and comparison hub
+  - `comparisons/griddle-buying-guide.html` — complete buying framework
   - `comparisons/28-vs-36-inch-griddle.html`
   - `comparisons/gas-vs-electric-griddles.html` — gas/electric comparison with current electric examples
   - `comparisons/brands-and-models.html` — major current brand/model-family directory
@@ -48,7 +49,7 @@ Flat Top Forge is a static reference site for flat-top griddle owners. It is bei
   - `troubleshooting/griddle-not-getting-hot.html`
   - `troubleshooting/food-sticking-to-griddle.html`
 - `tools.html` — charts, calculators, and quick-reference utilities
-  - `tools/griddle-size-calculator.html`
+  - `tools/griddle-size-calculator.html` — size + heat-zone planning tool
 - `about.html` — site purpose and research approach
 - `editorial-policy.html` — research/testing standards
 - `disclosure.html` — affiliate disclosure
@@ -61,7 +62,7 @@ Flat Top Forge is a static reference site for flat-top griddle owners. It is bei
 The site is organized around four kinds of value:
 
 1. **Cook** — recipes and technique
-2. **Choose** — gear, comparisons, and compatibility
+2. **Choose** — buying guide, gear, comparisons, and compatibility
 3. **Solve** — troubleshooting and maintenance
 4. **Reference** — calculators, charts, and reusable tools
 
@@ -79,10 +80,12 @@ The site is organized around four kinds of value:
 - Keep Guides consolidated under one main Guides destination, with core how-tos and a Tips & Tricks path rather than creating unnecessary top-level navigation sections.
 - Treat Tips & Tricks pages as repeatable food techniques that improve multiple recipes, not as duplicate recipe pages.
 - Keep brand/model comparison pages grouped by real use case and size class instead of comparing unrelated cookers simply because they share a brand category.
-- Recheck manufacturer specifications, current-model status, warranty, and availability before publishing model-specific head-to-head conclusions.
+- Recheck manufacturer specifications, current-model status, warranty, burner or element count, and availability before publishing model-specific head-to-head conclusions.
 - Label manufacturer-run testing as manufacturer claims rather than independent Flat Top Forge testing.
 - Separate countertop electric griddles from larger multi-zone electric flat tops so the Gas vs Electric comparison does not pretend every electric cooker serves the same use case.
 - When electric models use ceramic-coated or nonstick surfaces, follow manufacturer utensil and cleaning restrictions instead of applying seasoned-steel tool assumptions.
+- Treat griddle size and heat-control layout as separate buying variables. Nominal width does not guarantee a particular burner count or number of independently controlled zones.
+- Describe burners/elements as heat inputs, not perfectly isolated surface rectangles; plate construction and heat spread affect real-world zoning.
 
 ## Phase 3 implemented
 
@@ -130,10 +133,20 @@ The site is organized around four kinds of value:
 - Added a section explaining how coated electric surfaces can change spatula, scraper, and cleaning-tool requirements.
 - Added manufacturer-source links and a September 2026 research snapshot note.
 
+## Phase 8 implemented
+
+- Reframed the Comparisons hub as a combined **Griddle Buying Guide & Comparisons** destination without breaking the existing `comparisons.html` URL or top navigation structure.
+- Added a complete buying guide that evaluates size, one- through four-zone heat control, fuel type, surface material, cooking style, storage, hood/shelves, grease management, mobility, warranty, accessories, and total ownership needs.
+- Expanded the 28-inch vs 36-inch comparison so burner/element count and zone flexibility are treated separately from width.
+- Added compact 17–22 inch context to the size discussion.
+- Expanded the Heat Zones guide with one-, two-, three-, and four-control workflows.
+- Upgraded the griddle size calculator into a size + heat-zone calculator with a separate zone recommendation.
+- Added the editorial rule that burners/elements create controllable heat inputs but do not guarantee perfectly isolated surface zones.
+
 ## Next build stages
 
 - Build manufacturer-specific brand pages and source-cited model tables.
-- Publish the first full-size mainstream head-to-head comparison using current manufacturer documentation.
+- Publish the first full-size mainstream head-to-head comparison using current manufacturer documentation, including burner/zone layout as a first-class comparison factor.
 - Add same-brand Blackstone gas-vs-E-Series comparisons at similar sizes.
 - Convert more category recipes into standalone recipe pages.
 - Add a serving calculator and oil smoke-point reference.
